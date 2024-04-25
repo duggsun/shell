@@ -23,9 +23,12 @@ echo "and machine learning" >> dir1/file.txt
 # 6. How would you verify that the text was indeed appended to the existing file?
 cat dir1/file.txt
 # 7. How would you delete all files except for the one with the appended text?
-
+grep -R 'and machine learning  
+# to get the dir containing the appropriate text file. output will be "./dir1/file.txt:and machine learning
+# then do a rm to remove the files 
+rm -i dir{2..5}/*.txt
 # 8. How would you navigate back to the parent directory containing all the directories?
-cd
+cd ..
 # 9. How would you remove each directory along with its contents?
 rm -r dir{1..5}
 # 10. How would you verify that all directories and files have been deleted?
