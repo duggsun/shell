@@ -35,9 +35,12 @@ You are stuck in a virtual room and can only leave if you figure out the passwor
 **What is the secret password?**
 ```
 Your answer here...
-
-
-
+Clue #1 - Paper Rings
+Clue #2 - 10
+Clue #3 - Meets
+Clue #4 - and
+Clue #5 - Lucky
+Clue #6 - the
 
 ```
 
